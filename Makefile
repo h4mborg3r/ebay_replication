@@ -38,3 +38,8 @@ clean:
 #    - output/figures/figure_5_2.png
 #    - output/figures/figure_5_3.png
 #    - output/tables/did_table.tex
+
+# -- Task 8:---
+# The Makefile shows which files depend on each other, while run_all.sh just runs all the steps in order.
+# With the Makefile, only the parts that changed are rebuilt. As opposed to rerunning the whole file every time.
+# This can save time, and I was told, makes it easier to see how the data, code, and paper are connected.
